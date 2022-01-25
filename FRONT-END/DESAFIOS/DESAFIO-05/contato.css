@@ -32,6 +32,7 @@ span {
     background: white;
     color: black;
     border-radius: 20px;
+    border: solid 3px black;
 }
 
 #links-nav a:hover {
@@ -74,6 +75,11 @@ span {
     top: 15px;
     right: 10px;
     color: white;
+}
+
+.links-redes img {
+    border: solid 3px black;
+    border-radius: 20px;
 }
 
 .direitos {

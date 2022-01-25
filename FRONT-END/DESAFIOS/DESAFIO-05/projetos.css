@@ -32,6 +32,7 @@ span {
     background: white;
     color: black;
     border-radius: 20px;
+    border: solid 3px black;
 }
 
 #links-nav a:hover {
@@ -54,15 +55,23 @@ span {
 
 .imagem-projeto {
     margin-right: 10px;
+    margin-bottom: 20px;
     float: left;
 }
 
 .imagem-projeto img {
     border-radius: 50%;
+    border: solid 3px;
+}
+
+.imagem-projeto a {
+    color: black;
 }
 
 .texto-projeto {
     margin: 15px;
+    float: right;
+    width: 900px;
 }
 
 .texto-projeto h1 {
@@ -111,9 +120,9 @@ span {
     color: white;
 }
 
-.links-redes a {
-    width: 64px;
-    height: 64px;
+.links-redes img {
+    border: solid 3px black;
+    border-radius: 20px;
 }
 
 .direitos {
