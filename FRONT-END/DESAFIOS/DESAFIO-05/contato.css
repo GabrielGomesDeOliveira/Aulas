@@ -9,6 +9,7 @@
     margin: auto;
     background-color: rgb(72, 72, 252);
     text-align: center;
+    border: solid black 3px ;
 }
 
 #nav_bar p {
@@ -47,6 +48,69 @@ span {
     width: 1200px;
 }
 
+#entre-contato h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.area-form {
+    margin: 20px;
+}
+
+.inp-texto input {
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 3px black;
+}
+
+.inp-numero input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 3px black;
+}
+
+.caixa-selecao {
+    float: left;
+    margin: 5px 15px;
+}
+
+.caixa-selecao input {
+    margin: 5px;
+}
+
+.comentario {
+    margin: 5px;
+}
+
+.comentario textarea {
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.botao input {
+    width: 100px;
+    height: 40px;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+
 .clear {
     clear: both;
 }
@@ -56,6 +120,7 @@ span {
     background-color: rgb(72, 72, 252);
     margin: 15px 0px;
     border-radius: 20px;
+    border: solid 3px black;
 }
 
 #informacoes {

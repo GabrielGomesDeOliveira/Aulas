@@ -9,6 +9,7 @@
     margin: auto;
     background-color: rgb(72, 72, 252);
     text-align: center;
+    border: solid 3px black;
 }
 
 #nav_bar p {
@@ -99,6 +100,7 @@ span {
     background-color: rgb(72, 72, 252);
     margin: 15px 0px;
     border-radius: 20px;
+    border: solid 3px black;
 }
 
 #informacoes {
