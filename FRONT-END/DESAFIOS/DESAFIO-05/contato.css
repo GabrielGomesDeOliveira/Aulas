@@ -86,6 +86,10 @@ span {
     margin: 5px;
 }
 
+.caixa-selecao ul {
+    list-style: none;
+}
+
 .comentario {
     margin: 5px;
 }
