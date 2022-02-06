@@ -175,3 +175,80 @@ footer {
 .direitos-reservados {
     text-align: center;
 }
+
+/*   Área responsividade   */
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-rows: 180px 1fr 130px;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .texto-perfil, .texto-formacoes p {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    * {
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .grid {
+        grid-template-rows: 40% 1fr 40%;
+        background-color: red;
+    }
+
+     main {
+        width: 100%;
+
+    }
+
+    /*   cabeçalho   */
+    header {
+        margin: auto;
+        width: 100%;
+    }
+
+    nav a {
+        width: 100px;
+    }
+
+    /*   corpo   */
+
+    .area-perfil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-perfil {
+        margin: auto;
+    }
+
+    .area-formacoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens-formacoes {
+        margin: auto;
+    }
+
+    /*   rodapé   */
+
+    .nav-rapido {
+        display: none;
+    }
+
+    .media {
+        width: 200px;
+    }
+
+    .direitos-reservados p {
+        align-items: center;
+    }
+}
