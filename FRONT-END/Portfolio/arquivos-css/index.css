@@ -180,75 +180,82 @@ footer {
 
 @media (max-width: 768px) {
     .grid {
-        grid-template-rows: 180px 1fr 130px;
-        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
         width: 100%;
-        margin: auto;
+        height: 100%;
+
     }
 
-    .texto-perfil, .texto-formacoes p {
-        font-size: 16pt;
+    .texto-perfil {
+        width: 58%;
     }
+
+    .imagem-perfil img {
+        width: 300px;
+    } 
+
+    .barra-processos {
+        width: 120px;
+    }
+
+    .texto-formacoes {
+        width: 58%;
+    }
+
+    .imagens-formacoes img {
+        width: 148px;
+    }
+
+    .nav-rapido {
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 480px) {
-
-    * {
-        margin: 0;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
+@media (max-width: 480px) {
     .grid {
-        grid-template-rows: 40% 1fr 40%;
-        background-color: red;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
     }
-
-     main {
-        width: 100%;
-
-    }
-
-    /*   cabeçalho   */
-    header {
-        margin: auto;
-        width: 100%;
-    }
-
-    nav a {
-        width: 100px;
-    }
-
-    /*   corpo   */
 
     .area-perfil {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    .imagem-perfil {
-        margin: auto;
+    .texto-perfil {
+        width: 98%;
+        margin: 0 0 0 5px;
     }
 
     .area-formacoes {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    .imagens-formacoes {
-        margin: auto;
+    .texto-formacoes {
+        width: 97%;
+        margin: 0 0 0 5px;
     }
 
-    /*   rodapé   */
+    .area-rodape {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .nav-rapido {
         display: none;
     }
 
     .media {
-        width: 200px;
+        width: 170px;
+        margin: 0 0 0 0;
     }
 
-    .direitos-reservados p {
-        align-items: center;
+    ul {
+        padding: 0 0 0 5px;
     }
 }
