@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #132e4c;
+    font-family: sans-serif;
 }
 
 .imagem a {
@@ -11,4 +12,5 @@ body {
     padding: 15px;
     border-radius: 20px;
     background-image: linear-gradient(to right, #FDFDFD, #DEDEDE);
+    text-decoration: none;
 }
